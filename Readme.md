@@ -13,161 +13,165 @@
 
 
 1. ANN
-│
-├── Neuron / Perceptron
-├── Input / Hidden / Output Layers
-├── Weights & Bias
-├── Forward Propagation
-├── Activation Functions
-│   ├── Sigmoid
-│   ├── Tanh
-│   ├── ReLU
-│   ├── Leaky ReLU
-│   ├── GELU
-│   └── Softmax
-├── Loss Functions
-│   ├── MSE
-│   ├── MAE
-│   ├── Binary Cross Entropy
-│   └── Categorical Cross Entropy
-├── Backpropagation
-├── Gradient Descent
-├── Optimizers
-│   ├── SGD
-│   ├── Momentum
-│   ├── RMSprop
-│   ├── Adam
-│   └── AdamW
-├── Weight Initialization 
-│   ├── Xavier/Glorot
-│   └── He
-├── Regularization
-│   ├── L1
-│   ├── L2
-│   ├── Dropout
-│   └── Early Stopping
-└── Batch Normalization
+    │
+    ├── Neuron / Perceptron
+    ├── Input / Hidden / Output Layers
+    ├── Weights & Bias
+    ├── Forward Propagation
+    ├── Activation Functions
+    │   ├── Sigmoid
+    │   ├── Tanh
+    │   ├── ReLU
+    │   ├── Leaky ReLU
+    │   ├── GELU
+    │   └── Softmax
+    ├── Loss Functions
+    │   ├── MSE
+    │   ├── MAE
+    │   ├── Binary Cross Entropy
+    │   └── Categorical Cross Entropy
+    ├── Backpropagation
+    ├── Gradient Descent
+    ├── Optimizers
+    │   ├── SGD
+    │   ├── Momentum
+    │   ├── RMSprop
+    │   ├── Adam
+    │   └── AdamW
+    ├── Weight Initialization 
+    │   ├── Xavier/Glorot
+    │   └── He
+    ├── Regularization
+    │   ├── L1
+    │   ├── L2
+    │   ├── Dropout
+    │   └── Early Stopping
+    └── Batch Normalization
 
 2. CNN (Convolutional neural network)
-│
-├── Image Representation
-├── Convolution
-│   ├── Kernel / Filter
-│   ├── Stride
-│   └── Padding
-├── Feature Map
-├── Activation
-├── Pooling
-│   ├── Max Pooling
-│   └── Average Pooling
-├── Flattening
-├── Fully Connected Layer
-│
-├── CNN Architectures
-│   ├── LeNet
-│   ├── AlexNet
-│   ├── VGG
-│   ├── Inception / GoogLeNet
-│   ├── ResNet
-│   ├── DenseNet
-│   ├── MobileNet
-│   └── EfficientNet
-│
-├── Transfer Learning
-└── Computer Vision
-    ├── Classification
-    ├── Object Detection
-    └── Segmentation
+    │
+    ├── Image Representation
+    ├── Convolution
+    │   ├── Kernel / Filter
+    │   ├── Stride
+    │   └── Padding
+    ├── Feature Map
+    ├── Activation
+    ├── Pooling
+    │   ├── Max Pooling
+    │   └── Average Pooling
+    ├── Flattening
+    ├── Fully Connected Layer
+    │
+    ├── CNN Architectures
+    │   ├── LeNet
+    │   ├── AlexNet
+    │   ├── VGG
+    │   ├── Inception / GoogLeNet
+    │   ├── ResNet
+    │   ├── DenseNet
+    │   ├── MobileNet
+    │   └── EfficientNet
+    │
+    ├── Transfer Learning
+    └── Computer Vision
+        ├── Classification
+        ├── Object Detection
+        └── Segmentation
 
 3. RNN
-│
-├── Sequential Data
-├── Hidden State
-├── Recurrent Connection
-├── Vanilla RNN
-│
-├── Problems
-│   ├── Vanishing Gradient
-│   └── Exploding Gradient
-│
-├── LSTM
-│   ├── Forget Gate
-│   ├── Input Gate
-│   ├── Output Gate
-│   └── Cell State
-│
-├── GRU
-│   ├── Update Gate
-│   └── Reset Gate
-│
-├── Bidirectional RNN
-├── Bidirectional LSTM
-├── Seq2Seq
-└── Encoder-Decoder
+
+    │
+    ├── Sequential Data
+    ├── Hidden State
+    ├── Recurrent Connection
+    ├── Vanilla RNN
+    │
+    ├── Problems
+    │   ├── Vanishing Gradient
+    │   └── Exploding Gradient
+    │
+    ├── LSTM
+    │   ├── Forget Gate
+    │   ├── Input Gate
+    │   ├── Output Gate
+    │   └── Cell State
+    │
+    ├── GRU
+    │   ├── Update Gate
+    │   └── Reset Gate
+    │
+    ├── Bidirectional RNN
+    ├── Bidirectional LSTM
+    ├── Seq2Seq
+    └── Encoder-Decoder
 
 4. transformer
-│
-├── Attention
-│   ├── Query
-│   ├── Key
-│   └── Value
-│
-├── Self-Attention
-├── Cross-Attention
-├── Multi-Head Attention
-├── Positional Encoding
-│
-├── Feed Forward Network
-├── Residual Connection
-├── Layer Normalization
-│
-├── Encoder
-├── Decoder
-└── Transformer Architecture
+
     │
-    ├── Encoder-only
-    │   └── BERT
+    ├── Attention
+    │   ├── Query
+    │   ├── Key
+    │   └── Value
     │
-    ├── Decoder-only
-    │   └── GPT
+    ├── Self-Attention
+    ├── Cross-Attention
+    ├── Multi-Head Attention
+    ├── Positional Encoding
     │
-    └── Encoder-Decoder
-        └── T5
+    ├── Feed Forward Network
+    ├── Residual Connection
+    ├── Layer Normalization
+    │
+    ├── Encoder
+    ├── Decoder
+    └── Transformer Architecture
+        │
+        ├── Encoder-only
+        │   └── BERT
+        │
+        ├── Decoder-only
+        │   └── GPT
+        │
+        └── Encoder-Decoder
+            └── T5
 
 
 5. GAN
-│
-├── Generator
-├── Discriminator
-├── Adversarial Training
-├── GAN Loss
-│
-├── Training Process
-│
-├── Problems
-│   ├── Mode Collapse
-│   └── Training Instability
-│
-├── DCGAN
-├── Conditional GAN
-└── StyleGAN
+
+    │
+    ├── Generator
+    ├── Discriminator
+    ├── Adversarial Training
+    ├── GAN Loss
+    │
+    ├── Training Process
+    │
+    ├── Problems
+    │   ├── Mode Collapse
+    │   └── Training Instability
+    │
+    ├── DCGAN
+    ├── Conditional GAN
+    └── StyleGAN
 
 6. diffusion
-│
-├── Forward Diffusion
-│   └── Add Noise
-│
-├── Reverse Diffusion
-│   └── Remove Noise
-│
-├── Noise Schedule
-├── Noise Prediction
-├── Denoising
-├── DDPM
-├── Conditioning
-├── Text-to-Image
-└── Latent Diffusion
-    └── Stable Diffusion-type systems
+
+    │
+    ├── Forward Diffusion
+    │   └── Add Noise
+    │
+    ├── Reverse Diffusion
+    │   └── Remove Noise
+    │
+    ├── Noise Schedule
+    ├── Noise Prediction
+    ├── Denoising
+    ├── DDPM
+    ├── Conditioning
+    ├── Text-to-Image
+    └── Latent Diffusion
+        └── Stable Diffusion-type systems
 
 # Don't be afraid, we are clearing all these topics because later, as soon as there is a shift in the domain, we will study which ones we need to study more. We will study them again at the time of fear.
 
